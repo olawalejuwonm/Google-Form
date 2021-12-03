@@ -54,7 +54,7 @@ export default   {
     loginAsGuest(){
       var userData = {
         name: "Cool Guest", 
-        id: "y2jsdqakq9rqyvtd4gf6g", 
+        id: "61a07e33d1f15c28c4cc5402", 
         email: "coolboy69@gg.com"
       }
 

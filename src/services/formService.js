@@ -7,6 +7,7 @@ export default {
         return axios
         .get(API_URL + "getuserforms/" +userId)
         .then(response =>{
+            console.log(response.data, "getForms response.data");
             return response.data;
         })
     },

@@ -23,6 +23,7 @@
     "multer-gridfs-storage": "^4.2.0"
   },
   "devDependencies": {
+    "morgan": "^1.10.0",
     "node-dev": "^3.0.0"
   }
 }

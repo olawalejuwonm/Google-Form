@@ -15,7 +15,8 @@ module.exports = {
         }
     },
 
-    createForm: async(req,res)=>{     
+    createForm: async(req,res)=>{   
+        console.log(req.body, "body")  
         try {
              var data = {
                 createdBy : req.body.createdBy,
@@ -122,13 +123,13 @@ module.exports = {
     getAllFormsOfUser: async(req, res)=>{
         try {
             var userId = req.params.userId;
-            console.log(userId);
+            console.log(userId, "userId");
             await UserModel.findOne({_id:userId}).then(async(user)=>{
                 if(user == null){
                     res.status(404).send('User not found');
                 } else{ 
                    await FormModel.find().where('_id').in(user.createdForms).exec((err, records) => {
-                       console.log(records);
+                       console.log(records, "records");
        
                        res.status(200).json(records);
                    });
@@ -140,6 +141,7 @@ module.exports = {
             
         } catch (error) {
             res.send(error)
+        
         }
     },
 

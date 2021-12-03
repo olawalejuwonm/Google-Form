@@ -44,12 +44,18 @@ function Forms(props) {
         if(props.userId === undefined){
             //console.log("this shit is undefined");
         } else{
-           // console.log(props.userId);
+           console.log(props.userId, "this shit is defined");
             formService.getForms(props.userId)
             .then((forms2) => { 
-               // console.log(forms2);
+               console.log(forms2, "this is the forms2");
 
-                setForms(forms2);
+                setForms(() => {
+                    if (Array.isArray(forms2)) {
+                        return forms2
+                    } else {
+                        return []
+                    }
+                });
                 setLoadingForms(false);
                 },
 
