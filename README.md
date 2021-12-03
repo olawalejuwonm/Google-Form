@@ -104,23 +104,7 @@ etc.
 
 
 
-## Author
-
-| [![Rohit Saini](https://res.cloudinary.com/stillhungry/image/upload/c_scale,w_150/v1588051252/cycles/2020-04-28T05:20:52.231Z.jpg)](https://www.linkedin.com/in/rohitsaini1196/) 	|
-|:---------------------------------------------------------------------------------------------------------:	|
-|                                            **Rohit Saini**                                            	|
-
-## Support
-
-Reach out to me at one of the following places:
-
-- Website at [stillthristy.in](https://www.stillthristy.in/)
-- Github at **[rohitsaini1196](https://github.com/rohitsaini1196)**
-- E-Mail: **sidsaini1196@gmail.com**
-
-
 ## License
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/rohitsaini1196/google-forms/blob/master/licence.md)
 
-- Copyright © [Rohit Saini](https://stillthristy.in/ "Rohit Saini").
